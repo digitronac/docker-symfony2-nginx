@@ -13,7 +13,8 @@ RUN apt-get update && apt-get -y install \
     php5-fpm \
     php5-pgsql \
     postgresql-client-9.3 \
-    vim
+    vim \
+    php5-xdebug
 
 RUN curl -sS https://getcomposer.org/installer | php -- \
              --install-dir=/usr/local/bin \
